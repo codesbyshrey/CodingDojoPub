@@ -1,0 +1,61 @@
+*{
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: #f3f3f3;
+}
+
+.flex {
+     width: 1500px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.user{
+     width: 100%;
+     background-color: white;
+     border: 5px solid grey;
+     margin-bottom: 20px;
+     border-radius: 5px;
+     font-size: 1.3rem;
+     overflow: hidden;
+}
+
+.header {
+     background-color: cyan;
+     height: 130px;
+     margin-bottom: 65px;
+}
+
+.body{
+     padding: 20px;
+}
+
+.body h1, h2, h3, p {
+     margin: 20px 0px;
+}
+
+.pfp {
+     border-radius: 50%;
+     background-color: black;
+     height: 200px;
+     padding: 5px;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+
+.icon{
+     height: 20px;
+     margin-right:3px;
+}
+
+a{
+     color: blue;
+}
+
+/* the solutions had an interesting method here where we can avoid positioning. Consider looking into inspect element to play around with the numbers and just figure out how to play with the dimensions to make the pfp appear halfway down. Perhaps there's a way to make them all relative to each other */
