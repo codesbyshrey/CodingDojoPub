@@ -9,14 +9,14 @@
      !! --> figure out how to get the text aligned mid block*/
 
 *{
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:sans-serif;
 
 }
 
 h1{ 
      color:white;
      background-color:black;
-     text-align: left;
+     text-align: left; /* technically not needed */
 }
 
 h2{ 
@@ -38,4 +38,8 @@ h3{
      height: 30px;
      padding: 15px;
      display: block;
+}
+
+span{
+     color: cyan;
 }
