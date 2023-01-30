@@ -9,36 +9,33 @@
      background-color:lightgrey;
      display:block;
      height:950px;
-     padding: 20px;
+     padding:20px;
 }
+
+.row {
+     height: 250px;
+     display: flex;
+     margin-bottom: 20px;
+     justify-content: space-evenly;
+}
+
 .row1{
      background-color: lightskyblue;
-     height:250px;
-     justify-content: space-evenly;
-     display:flex;
-     margin-bottom: 20px;
 
 }
 .row2{
      background-color: lightcoral;
-     height:250px;
-     display:flex;
-     justify-content: space-evenly;
-     margin-top: 10px;
-     margin-bottom: 20px;
+
 }
 .row3{
      background-color: white;
-     height:250px;
-     justify-content: space-evenly;
-     display: flex;
-     margin-top:20px;
 
 }
 
 .images{
      height: 225x;
      width: 225px;
-     border:2px soliblack;
      display:inline-flex;
+     background: white;
+     border-radius: 25%;
 }
