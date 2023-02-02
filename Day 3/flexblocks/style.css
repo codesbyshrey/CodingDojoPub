@@ -34,7 +34,7 @@
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin: 10px; /* technically only needed on top* /
+    margin: 10px; /* technically only needed on top */
 }
 .row {
     /* TODO - what should go here? */
