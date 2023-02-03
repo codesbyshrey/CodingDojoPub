@@ -1,16 +1,22 @@
 // script for dojonary
 
-function removeDefinition(id){
-     var element = document.querySelector(id);
+function removeDefinition(element){
+     console.log(element);
      element.remove();
 }
 
-function ninjaLike(id){
+function ninjaLike(element){
      alert("ninja was liked");
      console.log("ninja was liked");
 }
 
-function logout(id) {
+function logout(element) {
+     console.log(element.value);
+
+     var logOutIn = document.querySelector(".logout");
+     console.log(logOutIn);
+     logOutIn.innerText = "Logout";
+
      // if span text currently reads Login, change to Logout
      // if span text currently reads Logout, change to Login
 }

@@ -14,7 +14,7 @@
                <h1 class="navtitle">Dojonary</h1>
                <ul class="navlinks">
                     <li><input class="search" type="text" id="search" placeholder="Search"> </li>
-                    <li><button type="button" class="login"> <span class="logout" >Login </span></button onclick="logout()"></li>
+                    <li><button onclick="logout(this)" type="button" class="login"> <span class="logout">Login </span></button></li>
                <!-- have to change this to say logout later -->
                </ul>
           </div>
@@ -53,7 +53,7 @@
           <div class="col2">
                <div class="information">
                     <p class="def3"> Dojonary is defined by <span class="bold">YOU</span></p>
-                    <button onclick="removeDefinition()" class="addDefinition">
+                    <button onclick="removeDefinition(this)" class="addDefinition">
                          Add Definition
                     </button>
                </div>
